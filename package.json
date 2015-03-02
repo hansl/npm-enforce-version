@@ -1,0 +1,28 @@
+{
+  "name": "npm-version-check",
+  "version": "2.1.11",
+  "description": "NPM package to enforce certain NPM versions on your developers.",
+  "main": "index.js",
+  "scripts": {
+    "install": "node ./install.js \"$(npm --version)\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hansl/npm-version-check"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "npmjs",
+    "version-enforcement"
+  ],
+  "author": "Hans Larsen (hans@hansl.ca)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hansl/npm-version-check/issues"
+  },
+  "homepage": "https://github.com/hansl/npm-version-check",
+  "dependencies": {
+  }
+}
